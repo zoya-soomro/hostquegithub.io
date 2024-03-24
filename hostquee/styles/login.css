@@ -1,0 +1,53 @@
+section{
+    min-height: 100vh;
+    background-image: url("./images/lock.webp");
+    background-size: cover;
+}
+#sub{
+    color:rgb(44, 45, 46);
+    font-size: 16px;
+}
+/*.sub{
+    text-align: center;
+    font-size: 18px;
+}*/
+.email{
+    
+    width: 350px;
+    height:30px;
+}
+.em{
+text-align: center;
+}
+.txt{
+    text-align: center;
+}
+.text{
+    
+    width: 350px;
+    height:30px;
+}
+.button{
+    width: 355px;
+    height:30px;
+background-color: rgb(95, 95, 172);
+}
+.checkbox{
+width: 30px;
+height: 20px;
+
+}
+.sign{
+    text-align: center;
+}
+.sub{
+    position: absolute;
+    top:40%;
+    left:38%;
+    
+    transform:translate(-50% -50%);
+    background: rgba(255,255,255,0.6);
+   
+    width:375px;
+    height: 270px;
+}

@@ -1,0 +1,97 @@
+section{
+background:url("./images/laptop.webp");
+
+
+background-size: cover;
+min-height: 100vh;
+
+}
+section > h1{
+    color:#fff;
+    text-align: center;
+    margin:1rem 0;
+}
+.price{
+    
+        display:flex;
+     
+        justify-content:space-between;
+        flex-wrap: wrap;
+        align-items:center;
+       
+      
+}
+    
+
+
+
+.pricing-cards{
+   align-items: center;
+
+background-color: #ece2e2;
+    border-radius:20px;
+    align-items: center;
+text-align: center;
+
+margin:1rem .75rem ;
+width: 250px;
+min-height:300px;
+padding:1rem .75rem;
+box-shadow: 1px 2px 10px 1px rgb(138, 134, 134);
+
+}
+
+
+.starter{
+    text-align:center;
+font-size: 22px;
+
+}
+.pricing-cards .starter{
+
+font-size :2rem;
+
+
+
+}
+
+.pricing-cards > a{
+
+background-color: blue;
+color:#ece2e2;
+border-radius: 7px;
+padding:10px 20px;
+
+
+}
+.pricing-cards > a:hover{
+
+    background-color: rgb(64, 64, 145);
+}
+
+.pricing-cards .free{
+
+font-size:1.2rem;
+font-style: bold;
+padding :10px 0px;
+
+
+
+}
+.pricing-cards .free span{
+
+font-size: .8rem;
+
+}
+.pricing-cards ul li{
+
+font-size: .9rem;
+color:black;
+list-style-type:circle;
+padding-top: 5px;
+
+
+}
+.free span{
+    font-size: 3px;
+}

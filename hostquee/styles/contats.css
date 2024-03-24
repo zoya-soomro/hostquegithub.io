@@ -1,0 +1,81 @@
+.contact {
+background:url('./images/space.webp');
+background-size: cover;
+min-height:100vh;
+}
+.contact-main-txt{
+color:rgb(219, 224, 230);
+position: absolute;
+top:50%;
+left:25%;
+right:25%;
+transform :translate(-50% -50%);
+padding:2rem;
+max-width:75%;
+text-align: center;
+
+
+}
+.navi{
+    background-color:black;
+
+}
+.contact-main-txt h2{
+    font-size: 30px;
+    font-style: italic;
+    word-spacing: 5px;
+
+
+}
+.contact-main-txt p{
+    margin-top: 1rem;
+
+}
+
+.contact-main-txt a{
+  
+    font-size: 18px;
+    text-decoration: none;
+    color:aliceblue;
+    border:1.5px solid #fff;
+    background-color: rgb(12, 12, 128);
+    transform :scaleX(0);
+}
+
+.contact-main-txt a:hover{
+
+
+    background-color: black;
+    font-size: 20px;
+  transition:.2s ease-in-out;
+}
+.contact-form{
+
+
+width: 1230px;
+text-align: center;
+padding: 20px;
+
+}
+button{
+
+background-color: rgb(163, 163, 204);
+border:bold ;
+width:120px;
+cursor: pointer;
+border-radius: 40px;
+
+}
+
+
+button:hover{
+    background-color: rgb(22, 22, 187);
+}
+
+.social a{
+    
+font-size: 35px;
+}
+
+
+
